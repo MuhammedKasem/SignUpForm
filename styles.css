@@ -1,0 +1,54 @@
+@import url('https://fonts.googleapis.com/css2?family=Alata&display=swap');
+
+* {
+  font-family: 'Alata', 'Times New Roman', Times, serif;
+   }
+body {
+  display: flex;
+  margin: 0;
+}
+
+h1 {
+}
+
+.leftContent {
+  display: flex;
+  flex-direction: column;
+  width: 35%;
+  height: 100vh;
+  text-align: center;
+  background-image: url(images/stars.jpg);
+  background-position: center; /* Center the image */
+  background-repeat: no-repeat; /* Do not repeat the image */
+  background-size: cover; /* Resize the background image to cover the entire container */
+}
+
+.leftLogo {
+  position: relative;
+  background: rgba(0, 0, 0, 0.4);
+  height: auto;
+  top: 20vh;
+  color: purple;
+}
+
+img {
+  z-index: -99;
+}
+
+.rightContent {
+  display: flex;
+  flex-direction: column;
+}
+.help {
+  display: none;
+  font-size: 0.8em;
+  text-align: center;
+  margin: 0.2em 0 1em 0;
+  color: #c00;
+}
+
+.inputField {
+  display: flex;
+  flex-direction: column;
+  max-width: 300px;
+}
