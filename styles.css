@@ -86,11 +86,15 @@ button:hover {
 }
 
 .help {
-  display: none;
+  display: block;
   font-size: 0.8em;
   text-align: center;
   margin: 0.2em 0 1em 0;
   color: #c00;
+}
+
+.help.invalid {
+  display: block;
 }
 
 .inputField {
